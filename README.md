@@ -1,5 +1,8 @@
 ## Getting Started
 
+1. Clone the repo
+2. Run the following commands to run the application.
+
 ```
 npm install
 npm start
