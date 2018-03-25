@@ -43,24 +43,3 @@ export const fetchGithubUser = (username, successCb, errorCb) => {
     }
   });
 }
-//
-// export const getApiPromise = (url, method, data) => {
-//   const options = {
-//     method,
-//   }
-//
-//   if (data) {
-//     options.body = JSON.stringify({
-//       data,
-//     });
-//   }
-//
-//
-//
-//   return fetch(url, options).then(response => {
-//     if (response.status >= 400) {
-//       return response.json().then(err => Promise.reject(err.message));
-//     }
-//     return response.json();
-//   });
-// }
